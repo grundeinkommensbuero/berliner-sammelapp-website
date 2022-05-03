@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "berlin.sammelapp",
+      "sha256_cert_fingerprints": [
+        "B6:CB:67:90:E5:0B:24:8A:9E:E1:46:5F:29:11:58:E7:7F:04:5B:FD:F7:64:7C:90:E9:C7:80:31:E5:E5:9D:84"
+      ]
+    }
+  }
+]

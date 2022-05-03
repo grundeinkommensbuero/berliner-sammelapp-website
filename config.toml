@@ -1,0 +1,87 @@
+baseurl = "https://berliner-sammelapp.de"                   # The base URL of your Hugo site
+title = "Berliner Sammelapp"             # The title of your Hugo site
+author = "Simon"           # The author name
+googleAnalytics = ""            # Your Google Analytics tracking ID
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+language = "de"
+paginate = 7                    # The numbers of posts per page
+theme = "LoveIt"
+images = ["/logo.png"]
+
+[params]
+  # LoveIt theme version
+  # LoveIt 主题版本
+  version = "0.2.X"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+
+  # Home page config
+  [params.home]
+    # LoveIt NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/1024.png"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "Berliner Sammelapp"
+      # subtitle shown in home page
+      subtitle = ""
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = true
+      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = true
+    [params.social]
+      enable = true
+      [params.social.appstore]
+        URL = "https://apps.apple.com/us/app/berliner-sammel-app/id1619980654"
+      [params.social.playstore]
+        URL = "https://play.google.com/store/apps/details?id=berlin.sammelapp"
+  [params.footer]
+    enable = false
+    # Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    # LoveIt NEW | 0.2.0 Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "Berliner Sammelapp"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
+      typeit = false
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+

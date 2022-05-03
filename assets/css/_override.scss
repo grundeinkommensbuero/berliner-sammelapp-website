@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Cabin;
+    src: url('/fonts/Cabin-Medium.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url('/fonts/Cabin-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url('/fonts/Cabin-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+$global-font-family: Cabin;
+
+$darkorange: #FFC989FF;
+$lightorange: #FFEDD2FF;
+$white: #FFFFFFFF;
+$lightgray: #F1F1F1FF;
+$darkgray: #A3A3A3FF;
+$black: #000000FF;
+
+$global-background-color: $white;
+$header-background-color: $lightgray;
+$global-link-hover-color: $darkorange;
+$single-link-color: $darkgray;
+$single-link-hover-color: $darkorange;
+
+
+$global-font-color-dark: $darkgray;
+$global-link-hover-color-dark: $darkorange;
+$single-link-hover-color-dark: $darkorange;
+$single-link-color-dark: $darkgray;
+
+
+
+
+
+
+

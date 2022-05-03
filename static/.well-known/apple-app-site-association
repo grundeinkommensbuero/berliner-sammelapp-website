@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "QYKL6PCF5Z.berlin.sammelapp"
+        ],
+        "components": [
+          {
+            "/": "/a/*",
+            "comment": "Matches any URL whose path starts with /a/"
+          }
+        ]
+      }
+    ]
+  }
+}
