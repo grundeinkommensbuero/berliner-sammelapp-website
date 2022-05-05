@@ -119,7 +119,7 @@ It might be possible to improve the data by not only asking for voluntary self-e
 ## What could have gone better?
 Besides the technical difficulties described above there were a few other things that looking back we would have done differently. Most important is that we did not anticipate in the beginning how well the app would work. If we'h had more confidence, we might have given it more weight compared to other organization tools and processes. This would have meant more neighborhood teams coordinating their actions primarily through the app, and more reporting functionality added to it.
 
-Besides this, a better integration with other communication tools would have been helpful, in particular Telegram channels and etherpads. We only added share links fairly late. It would also have been good to offer a basic web interface so that people without web access could also see action details.
+Besides this, a better integration with other communication tools would have been helpful, in particular Telegram channels and etherpads. We only added share links fairly late. It would also have been good to offer a basic web interface so that people without app access could also see action details.
 
 # General thoughts on software activism
 ## Why are there so many versions of this app?
