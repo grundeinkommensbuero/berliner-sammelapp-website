@@ -6,6 +6,7 @@ author: "Simon"
 weight: 5
 ---
 _Dieser Artikel wurde ursprünglich als Revue der DWE Sammel-App geschrieben, die der Vorgänger der Berliner Sammelapp ist. Er erzählt die Erfahrungen des damaligen Entwicklerteams, das auch bei der Berliner Sammelapp noch in verschiedenem Maße aktiv ist._
+<!--more-->
 
 # Intro
 ## Was ist die DWE?

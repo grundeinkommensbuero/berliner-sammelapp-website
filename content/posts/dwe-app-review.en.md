@@ -7,6 +7,7 @@ weight: 5
 ---
 
 _This article was originally written as a review of the DWE Sammel-App, which is the precursor to the Berliner Sammelapp. It's about the experiences of that developer team, which is still active with the Berliner Sammelapp to differing extents._
+<!--more-->
 
 # Intro
 ## What's the DWE?
