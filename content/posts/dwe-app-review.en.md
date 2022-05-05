@@ -99,8 +99,6 @@ Our interpretations is:
 We also looked at efficiency over time. It did not vary much.
 
 It also seemed like there's no large difference in efficiency depending on group size. If anything, it seems like efficiency decreases a bit for groups larger than 10 people.
-
-# Die App & DWE
 # Sammel-App & DWE
 ## How useful was the app for the campaign as a whole?
 From the numbers above we can see that the app was used frequently and was at least for some the primary way of interacting with the campaign. We see three forms of impact: reach, branding, efficiency.
