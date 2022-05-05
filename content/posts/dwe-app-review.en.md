@@ -1,7 +1,7 @@
 ---
 title: "DWE Sammel-App"
 date: 2022-03-15T16:42:34+02:00
-draft: true
+draft: false
 author: "Simon"
 weight: 5
 ---
@@ -10,7 +10,7 @@ _This article was originally written as a review of the DWE Sammel-App, which is
 
 # Intro
 ## What's the DWE?
-The campaign _Deutsche Wohnen & Co enteignen_ aims to communalize all big for-profit housing companies in Berlin in accordance with paragraph 14 of the German _Grundgesetz_. The relevant referendum was won on September 26 with 59% yes to 39% no.
+The campaign _Deutsche Wohnen & Co enteignen_ [^dwe] aims to communalize all big for-profit housing companies in Berlin in accordance with article 15 of the German _Grundgesetz_ [^article15]. The relevant referendum was won on September 26 with 59% yes to 39% no. [^vote]
 
 ## History of the app
 To hold a referendum, a campaign had to first collect about 180k physical signatures. This campaign was organized via decentral neighbourhood teams. To support those teams, we developed the Sammel-App, which makes it easy for supportes to join signature collection drives.
@@ -131,3 +131,7 @@ We see ourselves as political activists and are and have been active in other po
 We would wish for this app to be used and adapted for other campaigns. Ideally, a developer active on another campaign takes over and adapts the branding, hosting, configuration and store management on their own. In our experience, that does not work so well. Campaign members are usually very stressed and configuring the app, even if we offer to do it for them, does not have priority.
 
 _Later note: We hope that the Berliner Sammelapp with its multi-tenant setup makes it easier for new campaigns to use the app. We're happy that already three campaigns are integrating with it!_
+
+[^dwe]: https://www.darumenteignen.de/en/
+[^article15]: "Land, natural resources and means of production may, for the purpose of nationalisation, be transferred to public ownership or other forms of public enterprise by a law that determines the nature and extent of compensation." - [Article 15 "Nationalisation", Basic Law for the Federal Republic of Germany](https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html#p0087)
+[^vote]: https://roarmag.org/essays/berlin-deutsche-wohnen-enteignen/

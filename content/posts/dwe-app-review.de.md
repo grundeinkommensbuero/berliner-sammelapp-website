@@ -1,7 +1,7 @@
 ---
 title: "DWE Sammel-App"
 date: 2022-03-15T16:42:34+02:00
-draft: true
+draft: false
 author: "Simon"
 weight: 5
 ---
@@ -9,7 +9,7 @@ _Dieser Artikel wurde ursprünglich als Revue der DWE Sammel-App geschrieben, di
 
 # Intro
 ## Was ist die DWE?
-Die Kampagne _Deutsche Wohnen & Co enteignen_ zielt auf die Vergesellschaftung nach Paragraph 14 des Grundgesetzes aller großen, profitorientierten Wohnungskonzerne in Berlin ab. Ein entsprechender Volksentscheid wurde am 26. September mit 56% zu 39% gewonnen.
+Die Kampagne _Deutsche Wohnen & Co enteignen_ zielt auf die Vergesellschaftung nach Paragraph 15 des Grundgesetzes aller großen, profitorientierten Wohnungskonzerne in Berlin ab. Ein entsprechender Volksentscheid wurde am 26. September mit 56% zu 39% gewonnen.
 
 ## Geschichte der App
 Vor dem Volksentscheid musste eine Unterschriftenkampagne zunächst 180k Unterschriften sammeln. Diese Kampagne wurde organisiert über dezentrale Kiezteams. Zu ihrer Unterstützung haben wir die Sammel-App entwickelt, über die interessierte Menschen einfach an Sammel-Aktionen teilnehmen konnten.
