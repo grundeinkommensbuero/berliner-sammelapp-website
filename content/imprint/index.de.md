@@ -14,7 +14,7 @@ Für die Funktion der Push-Nachrichten sind wir auf den Einsatz einer Zustell-In
 
 Wenn du möchtest, dass alle persönlichen Daten, die du eingetragen hast, gelöscht werden, schreibe uns bitte eine Email an support@expedition-grundeinkommen.de.
 
-# Datensammlung
+# Datensammlung in der Website
 Diese Website sammelt keine personenbezogenen Daten, setzt keine Cookies und verwendet keine Tracker. Sie wird via Netlify gehostet, dort fallen betriebsbedingte Logs an, siehe: https://www.netlify.com/gdpr-ccpa/
 
 # V.i.S.d.P.
