@@ -6,7 +6,7 @@ author: "Simon"
 weight: 5
 ---
 
-_This article was originally written as a review of the DWE Sammel-App which is the precursor to the Berliner Sammelapp. It's about the experiences of that developer team, which is still active with the Berliner Sammelapp to differing extents._
+_This article was originally written as a review of the DWE Sammel-App, which is the precursor to the Berliner Sammelapp. It's about the experiences of that developer team, which is still active with the Berliner Sammelapp to differing extents._
 
 # Intro
 ## What's the DWE?
@@ -86,7 +86,7 @@ In both data sets, we can see a spike on April 15 – the day the Federal Consti
 From the daily usage numbers, we can also see that about 1k users opened the app on at least 10 different days. We could consider these regular users.
 
 ## Survey
-In the middle of the campaign, we asked users to participate in a survey to help us better understand app usage. About 40 people participated, of which 70% indicated using the app at least once a week. 30% said they are not active in the campaign itself, and only participate via the app.
+In the middle of the campaign, we asked users to participate in a survey to help us better understand app usage. About 40 people participated, of which 70% indicated using the app at least once a week. 30% said they are not active in the campaign itself and only participate via the app.
 
 ## Collection efficency
 The app would ask people after participating in a signature collection drive to evaluate the event and say how many signatures they collected. This survey was optional and users would frequently make guesses – many people just hand in their lists at some point and don't even know, how long they were collecting or how many signatures their group collected. Nevertheless we can provide some orders of magnitude:
@@ -102,20 +102,20 @@ We also looked at efficiency over time. It did not vary much.
 It also seemed like there's no large difference in efficiency depending on group size. If anything, it seems like efficiency decreases a bit for groups larger than 10.
 
 # Die App & DWE
-## Wie hilfreich war die App für die Kampagne als Ganzes?
+# Sammel-App & DWE
+## How useful was the app for the campaign as a whole?
+From the numbers above we can see that the app was used frequently and was at least for some the primary way of interacting with the campaign. We see three forms of impact: reach, branding, efficiency.
 
-Aus den Zahlen oben können wir ablesen, dass die App rege genutzt wurde und zumindest für manche der primäre Bezug zur Kampagne waren. Wir sehen drei Wirkungswege: Reichweite, Branding, Effizienz.
+We can see that the app reached some people who would not otherwise have participated in the campaign. We also believe that some people participated in more actions than they would have without the app, simply because the reached timely information about contribution possibilities.
 
-Wenn wir den obigen Zahlen folgen, hat die App zumindest einige Menschen erreicht, die sich sonst nicht an der Kampagne beteiligt hätten. Wir gehen außerdem davon aus, dass manche Menschen an mehr Aktionen teilgenommen haben, als sie es sonst getan hätten, weil sie über die App zielgenau informiert wurden.
+From talking to activists, we have learned that the mere existence of an app with decent design conveys a sense of professionalism – some activist was suprised, "that the DWE campaign even has an app.". We believe that the app cotributed to an overall perception of a well-organized campaign and thereby motivated people to participate who otherwise would not enjoy decentralized left-wing grassroots work.
 
-Aus Erzählungen haben wir gelernt, dass alleine die Existenz einer App mit einigermaßen ansprechender Gestaltung ein Gefühl von Professionalität vermittelt – manch ein Aktivist ist überrascht, dass „die DWE ja sogar eine App hat.“ Wir vermuten, dass die App zum Gesamtbild einer wohlorganisierten Kampagne beitragen hat und damit auch Menschen motiviert hat, die mit weniger organisierter linker Basisarbeit nicht so viel anfangen können.
+Lastly we saw that the app was used for some very particular pain points and small projects. This includes a weekend of focused collection work and the placard functionality, which made coordinating the postering and removal of placards easier.
 
-Zuletzt haben wir erlebt, dass die App für einige sehr konkrete Projekte genutzt wurde und sie einfacher gemacht hat. Dazu zählt zum Beispiel ein Sammelaktionswochenende, bei dem die App der zentrale Infopunkt war, aber auch die Plakatfunktionalität, über die das Auf- und Abhängen koordiniert werden konnte.
+## Is is worth doing data analysis for a campaign like this?
+One goal at the start of development was to be able to get better data through the app about the efficency of signature collection actions, in particulary with respect to time and place. Looking back, we'd say that the data from the app is of limited use for this. The analysis above is the best we could do. In partictual any statement about what intersection or times of day are particularly good is not possible from the app data. The data itself is simply too bad – voluntary self-assessments about for how long somebody was working or how many signatures they collected simply are not that reliable.
 
-## Macht es eigentlich Sinn, für so eine Kampagne Datenauswertung zu machen?
-Ein Ziel zu Beginn der Entwicklung war, über die App bessere Daten über Sammeleffizienz erheben zu können, insbesondere was Zeit und Ort der Sammelaktionen angeht. Hier würden wir sagen, dass die Daten aus der App nur sehr eingeschränkt nutzbar sind. Die Datenanalyse oben ist im Grunde das Beste, was wir sagen können. Insbesondere Einschätzungen dazu, an welchen Kreuzungen oder Tageszeiten man am besten sammelt, sind mit den Daten aus der App nicht möglich. Hierfür ist die Datenlage einfach zu schlecht – freiwillige Selbsteinschätzungen dazu, wie lange oder wie viel jemand gesammelt hat, sind einfach nicht besonders zuverlässig.
-
-Unter Umständen könnte man die Datenlage verbessern, wenn die App nicht nur freiwillige Evaluationen erfassen würde, sondern selbst das zentrale Werkzeug für das Reporting über den Status der Kampagne wäre. Bei der DWE wurde das manuell gemacht, das heißt, es wurden einmal pro Woche alle Unterschriftenlisten zusammen ausgezählt, die bis dahin irgendwie beim jeweiligen Kiezteam gelandet waren. 
+It might be possible to improve the data by not only asking for voluntary self-evaluations, but making the app itself the central reporting tool for the campaign. At the DWE campaign, the reporting was done manually, with each district team one a week collecting alll signatures that somehow made it to them by that time.
 
 ## Was hätte besser laufen können?
 Abgesehen von den oben benannten technischen Sorgen gab es noch ein paar andere Dinge, die wir rückblickend anders gestaltet hätten. Am wichtigsten ist vor allem, dass, wenn wir am Anfang gewusst hätten, wie gut die App funktionieren würde, wir ihr ein stärkeres Gewicht gegenüber anderen Kommunikations- und Organisationskanälen gegeben hätten. Das heißt einerseits, dass mehr Kiezteams ihre Aktionskoordination primär über die App gestalten hätten, und andererseits, dass wir vielleicht auch manches Reporting schon direkt über die App hätten machen können.
