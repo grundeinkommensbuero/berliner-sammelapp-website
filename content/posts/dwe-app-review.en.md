@@ -38,9 +38,7 @@ The server is hosted via digitalocean.com for €10/month (€5/month didn't qui
 Using the Flutter tools, we built both an iOS and an Android app and made them available on the Apple App Store and the Google Play Store as well as the Aurora Store. We didn't have experience with any of these. The Play Store was the easiest but still far more effort than we'd gleaned from reading the documentation.
 
 The App Store was a nightmare. We learned, that there is no way of building an iOS app without a Macbook. We also realized that it's near impossible to have more than one person taking care of pushing new versions to the app store because distributing certificates becomes too hard. The App Store expects you to build an app with general appeal that you want to advertise and will beuseful to many different iPhone users. This is obviously not the case for the Sammel-App because our potential users are extremely limited from the getgo. You still have to make the effort to mat. screenshots, write advertising copy and fill in a pile of forms.
-
-## Fehler
-# Mistakes
+## Mistakes
 Three times we caused an outage because we didn't replace the certificates on the server in time. Let's Encrypt certificates have such short expiry times specifically to force people like us to autmate the replacement process and we should've just done that. Luckily, switching certificates on the server is fast and easy.
 
 Once the root certificate used in the app for verifying the server certificate expired. When setting up, whe should have noticted that we picked the one expiring in a year rather than a decade: [https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/](https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/)
@@ -99,7 +97,7 @@ Our interpretations is:
 
 We also looked at efficiency over time. It did not vary much.
 
-It also seemed like there's no large difference in efficiency depending on group size. If anything, it seems like efficiency decreases a bit for groups larger than 10.
+It also seemed like there's no large difference in efficiency depending on group size. If anything, it seems like efficiency decreases a bit for groups larger than 10 people.
 
 # Die App & DWE
 # Sammel-App & DWE
@@ -117,17 +115,19 @@ One goal at the start of development was to be able to get better data through t
 
 It might be possible to improve the data by not only asking for voluntary self-evaluations, but making the app itself the central reporting tool for the campaign. At the DWE campaign, the reporting was done manually, with each district team one a week collecting alll signatures that somehow made it to them by that time.
 
-## Was hätte besser laufen können?
-Abgesehen von den oben benannten technischen Sorgen gab es noch ein paar andere Dinge, die wir rückblickend anders gestaltet hätten. Am wichtigsten ist vor allem, dass, wenn wir am Anfang gewusst hätten, wie gut die App funktionieren würde, wir ihr ein stärkeres Gewicht gegenüber anderen Kommunikations- und Organisationskanälen gegeben hätten. Das heißt einerseits, dass mehr Kiezteams ihre Aktionskoordination primär über die App gestalten hätten, und andererseits, dass wir vielleicht auch manches Reporting schon direkt über die App hätten machen können.
+## What could have gone better?
+Besided the technical difficulties described above there were a few other things that looking back we would have done differently. Most important is that we did not antipate in the beginning how well the app would work. If we'h had more confidence, we might have given it more weight compared to other organization tools and processes. This would have meant more neighborhood teams coordinating their actions primarily through the app, and more reporting functionality added to it.
 
-Davon abgesehen wäre eine stärkere Integration mit den anderen Kanälen sinnvoll gewesen. Das sind insbesondere Telegram-Kanäle und Etherpads gewesen. Wir haben erst relativ spät Sharelinks für Aktionen erstellt, das hätte die Verbindung zu Pads einfacher machen können. Außerdem wäre es sinnvoll gewesen, zumindest eine rudimentäre Browserschnittstelle für die Appdaten zu haben, so dass auch jemand ohne ein Telefon über den Laptop mit einem Link auf die Daten einer Sammelaktion sehen kann.
+Besides this, a better integration with other communication tools would have been helpful, in particular Telegram channels and etherpads. We only added share links farily late. It would also have been good to offer a basic web interface so that people without web access could also see action details.
 
-# Allgemeine Betrachtungen zu Softwareaktivismus
-## Warum gibt es so viele Versionen dieser App?
-Angesichts der Tatsache, dass nahezu jede Kampagne und jede Partei, die an Haustüren klopft, die gleiche Funktionalität braucht, hätten wir erwartet, dass es eine freie Standardlösung gibt. Stattdessen rollt jede Partei ihre eigene Version aus. Wir vermuten, dass es mehrere Gründe hierfür gibt: Einerseits ist es immer interessanter, selbst etwas zu bauen, als sich in fremden Code einzulesen. Das gilt für kostenlos arbeitende Entwickler:innen genauso wie für Parteien, denen von Softwareanbietern etwas vorgeschlagen wird. Außerdem ist die Integration mit bestehender Infrastruktur, beispielsweise Mitgliederverwaltungssystem auf Kreisverbandebene, ein großer Teil der Arbeit. Zuletzt ist das tatsächlich Featureset der App tatsächlich sehr spezifisch (Plakate, Haustürgespräche, Evaluationen) und eine Anpassung einer bestehenden Lösung dauert möglicherweise genauso lange wie ein Neubau.
+# General thoughts on software activism
+## Why are there so many versions of this app?
+Given that vitually every campaign or party that does door-to-door campaigning needs the same functionality, we would have assumed there is a standard FOSS solution. Instead, each party rolss their own. We assume there are multiple reasons: For one, it is always easier and more fun to build something yourself than it is to work with someone else's code. This is true for volunteer developers as much as it is for the agencies submitting bids to parties. It is also often necessary and quite difficult to integrate the appp with existing infrastructure, for example a party's membership system. Lastly, the particular feature set of this app with placards, door-to-door campaigning, and evaluations is quite particular and so it might be for other apps as well, making building from scratch no less cumbersome than adapting an existing solution.
 
-## Ist es sinnvoll für aktivistische Softwareentwickler:innen, so eine App zu bauen?
-Wir sehen uns als politische Aktivisten und waren alle auch in anderen politischen Kontexten auf andere Art und Weise bereits aktiv. Ein Gedanke hinter dieser App war auch, dass es eine effektivere Nutzung unserer Zeit ist, sie zu bauen, als uns anderweitig zu engagieren. Wir schätzen, dass wir zusammen ungefähr 1000 Stunden an der App gearbeitet haben. Hätten wir die Zeit mit dem Sammeln von Unterschriften verbracht, wären das etwas 15k zusätzliche Unterschriften gewesen, also etwa 5% mehr, als die DWE tatsächlich erreicht hat. Hätten wir stattdessen unsere Stunden in der bezahlten Arbeit aufgestockt, wäre bei bei einem Netto von €30/Stunde etwa €30k an zusätzlichen Spenden für die DWE herausgekommen – etwa das dreifache, was die Linke in Berlin an die DWE gespendet hat.
+## Does it make sense for politically inclined software developers to build an app like this?
+We see ourselves as political activists and are and have been active in other political contexts. One thought behind this app was that it is more efficient for us to use our time in this way. We estimate, that we worked around 1k hours on this app. If we'd used that time for collecting signatures, we would have collected abou 15k additional signatures, so about 5% of the total collected amount. If we'd instead put the time into wage work at around €30/hour net, we could have donated €30k to the campaign, or about three times as much as the party Die LINKE donated to the campaign.
 
-## Wie interagiert man als Techteam am Besten mit anderen aktivistischen Gruppen?
-Unser Wunsch wäre, dass die App auch für andere sinnvolle Volksbegehren angepasst und verwendet wird. Die Idealvorstellung ist dabei natürlich, dass eine technisch versierte Person aus der Kampagne sich eigenständig um das Anpassen des Brandings, das Hosting, und das Konfigurieren der Store-Einträge kümmert. In unserer bisherigen Erfahrung klappt das eher mau. Die Kampagnen sind normalerweise sehr gestresst und das Konfigurieren der App, selbst wenn wir anbieten, uns für sie darum zu kümmern, nimmt keine Priorität ein.
+## How to best interact with activist groups as a tech team?
+We would wish for this app to be used and adapted for other campaigns. Ideally, a developer active on another campaign takes over and adapts the branding, hosting, configuration and store management on their own. In our experience, that does not work so well. Campaign members are usually very stressed and configuring the app, even if we offer to do it for them, does not have priority.
+
+_Later note: We hope that the Berliner Sammelapp with its multi-tenant setup makes it easier for new campaigns to use the app. We're happy that already three campaigns are integrating with it!_
