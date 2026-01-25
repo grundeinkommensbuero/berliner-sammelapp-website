@@ -8,5 +8,15 @@
         "B6:CB:67:90:E5:0B:24:8A:9E:E1:46:5F:29:11:58:E7:7F:04:5B:FD:F7:64:7C:90:E9:C7:80:31:E5:E5:9D:84"
       ]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "berlin.multisammelapp",
+      "sha256_cert_fingerprints": [
+        "10:9E:B7:EF:3E:3C:B5:3A:08:84:EE:7E:6B:8D:50:FB:80:3C:CD:C8:79:80:9C:FC:55:2D:22:AA:20:19:8C:0E"
+      ]
+    }
   }
 ]
