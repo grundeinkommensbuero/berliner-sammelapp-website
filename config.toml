@@ -41,10 +41,8 @@ images = ["/logo.png"]
       paginate = 6
     [params.social]
       enable = true
-      [params.social.appstore]
-        URL = "https://apps.apple.com/us/app/berliner-sammel-app/id1619980654"
       [params.social.playstore]
-        URL = "https://play.google.com/store/apps/details?id=berlin.sammelapp"
+        URL = "https://play.google.com/store/apps/details?id=berlin.multisammelapp"
   [params.footer]
     enable = false
     # Header config
