@@ -5,6 +5,8 @@ menu: main
 weight: 2
 ---
 
-The Berliner Sammelapp is an app for supporting citizens' signature campaigns. We are a continuation of the DWE Sammel-App. Currently, this app is maintained by various developers, partially on a volunteer basis and partially as part of Mehr Demokratie e.V.
+The Berliner Sammelapp is an app that supports referendums in collecting signatures. We were created as a further development of the DWE Sammel-App. It is currently being further developed by various developers, some on a voluntary basis and some with Mehr Demokratie e.V.
 
-If you are interested in using the Sammelapp for your campaign, please get in touch at sammel-app@mehr-demokratie.de
+If you are interested in using the app for your referendum, please contact sammel-app@mehr-demokratie.de.
+
+If you want to report technical problems or need help and information, please also contact sammel-app@mehr-demokratie.de.
